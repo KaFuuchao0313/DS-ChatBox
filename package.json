@@ -1,7 +1,12 @@
 {
   "name": "chat-with-drsalmon",
   "version": "1.0.0",
-  "description": "桌面宠物聊天应用",
+  "description": "通过*异常软件*和Dr.Salmon进行实时聊天，探索世界的真相。",
+  "keywords": [
+    "salmon-world",
+    "ai-chat",
+    "tauri"
+  ],
   "author": "h7t0X1a9",
   "license": "MIT",
   "type": "module",
@@ -13,11 +18,6 @@
     "tauri:dev": "tauri dev",
     "tauri:build": "tauri build"
   },
-  "keywords": [
-    "desktop-pet",
-    "chat",
-    "tauri"
-  ],
   "dependencies": {
     "https-proxy-agent": "^9.1.0",
     "openai": "^6.47.0",
