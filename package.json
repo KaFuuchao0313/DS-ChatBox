@@ -1,0 +1,40 @@
+{
+  "name": "chat-with-drsalmon",
+  "version": "1.0.0",
+  "description": "桌面宠物聊天应用",
+  "author": "h7t0X1a9",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "keywords": [
+    "desktop-pet",
+    "chat",
+    "tauri"
+  ],
+  "dependencies": {
+    "https-proxy-agent": "^9.1.0",
+    "openai": "^6.47.0",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "zustand": "^5.0.13"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.2",
+    "@tauri-apps/cli": "^2.11.2",
+    "@types/react": "^19.2.15",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "autoprefixer": "^10.5.0",
+    "postcss": "^8.5.15",
+    "tailwindcss": "^4.3.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.14"
+  }
+}
